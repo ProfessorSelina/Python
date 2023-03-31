@@ -8,6 +8,6 @@ def read_data(str):
 def sum_digit(num1):
     res = num1 % 10 + num1 // 10 % 10 + num1 // 100 % 10
     return res
-num = read_data("Введите 3-х значное число: ")
+num = read_data("Введите трехзначное число: ")
 sum = sum_digit(num)
-print(f"Сумма чисел 3-х значного числа - {num} равна: {sum}")
+print(f"Сумма чисел трехзначного числа - {num} равна: {sum}")
