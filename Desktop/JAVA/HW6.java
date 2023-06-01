@@ -55,13 +55,16 @@ public class laptop
     {
         return this.model;
     }
-    public Boolean getBooking(){
+    public Boolean getBooking()
+    {
         return this.isBooked;
     }
-    public void setColor(String color){
+    public void setColor(String color)
+    {
         this.color =color;
     }
-    public void setRAM(Integer RAM){
+    public void setRAM(Integer RAM)
+    {
         this.RAM = RAM;
     }
     public void setOS(String OS)
@@ -74,7 +77,8 @@ public class laptop
     }
     public void Book()
     {
-        if (isBooked==false){
+        if (isBooked==false)
+        {
             this.isBooked=true;
         }
         else System.out.println("Этот ноутбук уже забронирован");
