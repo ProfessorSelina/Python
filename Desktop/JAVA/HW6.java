@@ -9,7 +9,8 @@
 // Далее нужно запросить минимальные значения для указанных критериев — сохранить параметры фильтрации можно также в Map.
 // Отфильтровать ноутбуки их первоначального множества и вывести проходящие по условиям.
 
-public class laptop{
+public class laptop
+{
     private String color;
     private Integer RAM;
     private String OS;
@@ -19,31 +20,39 @@ public class laptop{
     private String model;
     private boolean isBooked = false;
 
-    public laptop(String model,Integer id, String brand){
+    public laptop(String model,Integer id, String brand)
+    {
         this.model = model;
         this.brand = brand;
         this.id = id;
         System.out.println("Ноутбук марки "+"'"+ this.brand+"'"+" Модель "+this.model+" С id " +Integer.toString(this.id));
     }
-    public String getColor(){
+    public String getColor()
+    {
         return this.color;
     }
-    public Integer getRAM(){
+    public Integer getRAM()
+    {
         return this.RAM;
     }
-    public String getOS(){
+    public String getOS()
+    {
         return this.OS;
     }
-    public Integer getHDD(){
+    public Integer getHDD()
+    {
         return this.HDD;
     }
-    public Integer getid(){
+    public Integer getid()
+    {
         return this.id;
     }
-    public String getBrand(){
+    public String getBrand()
+    {
         return this.brand;
     }
-    public String getModel(){
+    public String getModel()
+    {
         return this.model;
     }
     public Boolean getBooking(){
@@ -55,20 +64,24 @@ public class laptop{
     public void setRAM(Integer RAM){
         this.RAM = RAM;
     }
-    public void setOS(String OS){
+    public void setOS(String OS)
+    {
         this.OS = OS;
     }
-    public void setHDD(Integer HDD){
+    public void setHDD(Integer HDD)
+    {
         this.HDD = HDD;
     }
-    public void Book(){
+    public void Book()
+    {
         if (isBooked==false){
             this.isBooked=true;
         }
         else System.out.println("Этот ноутбук уже забронирован");
     }
     @Override
-    public String toString(){
+    public String toString()
+    {
         StringBuilder sb = new StringBuilder();
         sb.append("Ноутбук ");
         sb.append(this.id);
