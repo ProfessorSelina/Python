@@ -17,7 +17,7 @@
 
 ## Решение задчи: 
 
-![Блок схема](https://ibb.co/8Msp7gH)
+![Блок схема](https://github.com/ProfessorSelina/COS/blob/main/%D0%91%D0%BB%D0%BE%D0%BA%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0.png)
 
 ``` string[] firsArray = { "hello", "2", "word", ":-)", "123", "156", "computer scence", "Russia", "Denmark", "Kaz" };
 string str = string.Empty;
